@@ -22,7 +22,7 @@ const myServer = http.createServer((req, res)=>{
     if(req.url === '/'){
         routeHandeler("./viwes/home.html", 200, req, res);
     }
-    else if(req.url === '/.about'){
+    else if(req.url === '/about'){
         routeHandeler("./viwes/about.html", 200, req, res);
     }
     else{
